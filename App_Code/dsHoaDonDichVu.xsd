@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHoaDonDichVu" targetNamespace="http://tempuri.org/dsHoaDonDichVu.xsd" xmlns:mstns="http://tempuri.org/dsHoaDonDichVu.xsd" xmlns="http://tempuri.org/dsHoaDonDichVu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHoaDonDichVu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsHoaDonDichVu" msprop:Generator_UserDSName="dsHoaDonDichVu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtHoaDonDichVu" msprop:Generator_TableClassName="dtHoaDonDichVuDataTable" msprop:Generator_TableVarName="tabledtHoaDonDichVu" msprop:Generator_RowChangedName="dtHoaDonDichVuRowChanged" msprop:Generator_TablePropName="dtHoaDonDichVu" msprop:Generator_RowDeletingName="dtHoaDonDichVuRowDeleting" msprop:Generator_RowChangingName="dtHoaDonDichVuRowChanging" msprop:Generator_RowEvHandlerName="dtHoaDonDichVuRowChangeEventHandler" msprop:Generator_RowDeletedName="dtHoaDonDichVuRowDeleted" msprop:Generator_RowClassName="dtHoaDonDichVuRow" msprop:Generator_UserTableName="dtHoaDonDichVu" msprop:Generator_RowEvArgName="dtHoaDonDichVuRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="hoadon_code" msprop:Generator_ColumnVarNameInTable="columnhoadon_code" msprop:Generator_ColumnPropNameInRow="hoadon_code" msprop:Generator_ColumnPropNameInTable="hoadon_codeColumn" msprop:Generator_UserColumnName="hoadon_code" type="xs:string" minOccurs="0" />
+              <xs:element name="khachhang_name" msprop:Generator_ColumnVarNameInTable="columnkhachhang_name" msprop:Generator_ColumnPropNameInRow="khachhang_name" msprop:Generator_ColumnPropNameInTable="khachhang_nameColumn" msprop:Generator_UserColumnName="khachhang_name" type="xs:string" minOccurs="0" />
+              <xs:element name="hoadon_createdate" msprop:Generator_ColumnVarNameInTable="columnhoadon_createdate" msprop:Generator_ColumnPropNameInRow="hoadon_createdate" msprop:Generator_ColumnPropNameInTable="hoadon_createdateColumn" msprop:Generator_UserColumnName="hoadon_createdate" type="xs:string" minOccurs="0" />
+              <xs:element name="username_fullname" msprop:Generator_ColumnVarNameInTable="columnusername_fullname" msprop:Generator_ColumnPropNameInRow="username_fullname" msprop:Generator_ColumnPropNameInTable="username_fullnameColumn" msprop:Generator_UserColumnName="username_fullname" type="xs:string" minOccurs="0" />
+              <xs:element name="khuyenmai_name" msprop:Generator_ColumnVarNameInTable="columnkhuyenmai_name" msprop:Generator_ColumnPropNameInRow="khuyenmai_name" msprop:Generator_ColumnPropNameInTable="khuyenmai_nameColumn" msprop:Generator_UserColumnName="khuyenmai_name" type="xs:string" minOccurs="0" />
+              <xs:element name="dichvu_name" msprop:Generator_ColumnVarNameInTable="columndichvu_name" msprop:Generator_ColumnPropNameInRow="dichvu_name" msprop:Generator_ColumnPropNameInTable="dichvu_nameColumn" msprop:Generator_UserColumnName="dichvu_name" type="xs:string" minOccurs="0" />
+              <xs:element name="hdct_soluong" msprop:Generator_ColumnVarNameInTable="columnhdct_soluong" msprop:Generator_ColumnPropNameInRow="hdct_soluong" msprop:Generator_ColumnPropNameInTable="hdct_soluongColumn" msprop:Generator_UserColumnName="hdct_soluong" type="xs:string" minOccurs="0" />
+              <xs:element name="hdct_rice" msprop:Generator_ColumnVarNameInTable="columnhdct_rice" msprop:Generator_ColumnPropNameInRow="hdct_rice" msprop:Generator_ColumnPropNameInTable="hdct_riceColumn" msprop:Generator_UserColumnName="hdct_rice" type="xs:string" minOccurs="0" />
+              <xs:element name="hdct_thanhtien" msprop:Generator_ColumnVarNameInTable="columnhdct_thanhtien" msprop:Generator_ColumnPropNameInRow="hdct_thanhtien" msprop:Generator_ColumnPropNameInTable="hdct_thanhtienColumn" msprop:Generator_UserColumnName="hdct_thanhtien" type="xs:string" minOccurs="0" />
+              <xs:element name="hoadon_tongtien" msprop:Generator_ColumnVarNameInTable="columnhoadon_tongtien" msprop:Generator_ColumnPropNameInRow="hoadon_tongtien" msprop:Generator_ColumnPropNameInTable="hoadon_tongtienColumn" msprop:Generator_UserColumnName="hoadon_tongtien" type="xs:string" minOccurs="0" />
+              <xs:element name="hoadon_phaitra" msprop:Generator_ColumnVarNameInTable="columnhoadon_phaitra" msprop:Generator_ColumnPropNameInRow="hoadon_phaitra" msprop:Generator_ColumnPropNameInTable="hoadon_phaitraColumn" msprop:Generator_UserColumnName="hoadon_phaitra" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

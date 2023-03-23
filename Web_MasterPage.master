@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Web_MasterPage.master.cs" Inherits="Web_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <script src="/admin_js/sweetalert.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .web-header {
+            background-color: white;
+            width: 100%;
+            height: 75px;
+            box-shadow: 0 0px 5px 1px rgba(0, 0, 0, 0.4);
+            position: fixed;
+            z-index: 1;
+        }
+
+        .web-header-logo {
+            height: 60px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="web-header">
+            <div class="container">
+                <div style="display: flex; justify-content: space-between;">
+                    <a href="/home">
+                        <img class="web-header-logo" src="https://bizweb.dktcdn.net/100/448/042/themes/895670/assets/logo.png?1678938687575" alt="Alternate Text" />
+                    </a>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">Trang chủ</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản Phẩm
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Bộ sưu tập</a>
+                                        <a class="dropdown-item" href="#">Mặc theo dịp</a>
+                                        <a class="dropdown-item" href="#">Thời trang nữ</a>
+                                        <a class="dropdown-item" href="#">Thời trang vận động</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Khác</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Đơn hàng <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Hệ thống cửa hàng <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div style="display: flex; align-items: center; font-size: 25px;">
+                        <div class="mr-3">
+                            <a href="#" style="color: black">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" style="color: black">
+                                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="web-footer">
+            <img style="width: 100%" src="images/web_footer.jpg" />
+        </div>
+    </form>
+</body>
+</html>

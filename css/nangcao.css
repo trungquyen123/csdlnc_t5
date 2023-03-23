@@ -1,0 +1,68 @@
+﻿#hibodywrapper_txtTime, #hibodywrapper_txtBatDau, #hibodywrapper_txtKetThuc {
+    width: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+#hibodywrapper_txtStart, #hibodywrapper_txtEnd {
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+#hibodywrapper_txt_SoNgauNhien {
+    width: 120px;
+    text-align: center;
+    font-size: 35px;
+}
+#hibodywrapper_btn_KetQua, #hibodywrapper_btn_KetQua2 {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+#hibodywrapper_button1, #hibodywrapper_btn_run {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+#hibodywrapper_btnXem {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+#hibodywrapper_lblTime {
+    font-size:35px;
+}
+#hibodywrapper_lblkq1, #hibodywrapper_lblkq2, #hibodywrapper_lblkq3, #hibodywrapper_lblkq4, #hibodywrapper_lblkq5,
+#hibodywrapper_lblkq6, #hibodywrapper_lblkq7, #hibodywrapper_lblkq8, #hibodywrapper_lblkq9 {
+    padding-right: 15px;
+}
+#hibodywrapper_txtSoHang1, #hibodywrapper_txtSoHang2, #hibodywrapper_txtSoHang3, #hibodywrapper_txtSoHang4, #hibodywrapper_txtSoHang5 {
+    width: 120px;
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+}
+.container-fluid span {
+    padding-left: 5px;
+}
